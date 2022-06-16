@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/bg_PC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hide{
+    display: none;
+}
+.wrapper{
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+}
+.download{
+    position: absolute;
+    right: 30px;
+    top: 10%;
+}
+.download img{
+    width: 200px;
+
+}
+.chart{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+.text-heading{
+    padding-top: 30px;
+    text-align: center;
+}
+.text-heading img{
+    width: 500px;
+
+}
+.chart img{
+    height: 400px;
+}
+
+.form{
+    background-image: url(./img/khung.png);
+    text-align: center;
+    margin: 10px auto;
+    height: 300px;
+    transform: translateX(15px);
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 300px;
+}
+.btn-wrap{
+    display: flex;
+    align-items: center;
+    transform: translate(-14px, 25px);
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.btn-dk{
+    width: 260px;
+    object-fit: contain;
+    height: 50px;
+
+}
+.btn-dn{
+    width: 140px;
+    object-fit: contain;
+    height: 50px;
+}
+.btn-dn.active{
+    width: 260px;
+    object-fit: contain;
+    height: 50px;
+}
+.btn-dk.active{
+    width: 140px;
+    object-fit: contain;
+    height: 50px;
+}
+
+.input-wrap{
+    position: relative;
+}
+.input-wrap img{
+    position: absolute;
+
+}
+.input-wrap input{
+    border-radius: 20px;
+    border: 1px solid rgb(246, 246, 78);
+    outline: none;
+    width: 80%;
+    padding: 14px 8px;
+    padding-left: 40px;
+}
+.input-wrap {
+    padding: 0 25px;
+    text-align: left;
+    margin-top: 15px;
+}
+.input-wrap:nth-child(2){
+    margin-top: 35px !important;
+}
+.input-wrap img{
+    position: absolute;
+    top: 10px;
+    width: 18px;
+    left: 38px;
+}
+.nhanngay{
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-48%);
+    width: 350px;
+}
+
+.giaitri{
+    text-align: center;
+    margin: 40px auto;
+    width: 250px;
+}
+.games-wrap{
+    background-image: url(./img/nen\ game.png);
+    height: 100px;
+    margin: 0 auto;
+}
+
+.games-wrap img{
+    transform: translateY(-20px);
+    width: 100px;
+}
+.logo-mobile{
+    display: none;
+}
+.text-warning{
+    display: none;
+}
+.download-mobile img{
+    display: none;       
+}
+.games-wrap .heading{
+    display: none;
+}
+@media screen and (max-width: 767.98px) {
+    body{
+        background-image: url(./img/BG_mobile.jpg);
+        background-size: cover;
+    }
+    .wrapper{
+        overflow: hidden;
+    }
+    .text-heading img{
+        width: 270px;
+    }
+    .form{
+        width: 320px;
+        transform: translateX(0);
+        height: 200px;
+    }
+    .btn-wrap{
+        transform: translate(0px, 12px);
+        gap: 5px;
+    }
+    .input-wrap:nth-child(2){
+        margin-top: 15px !important;
+    }
+    .input-wrap{
+        margin-top: 5px;
+    }
+    .btn-dn{
+        width: 90px;
+    }
+    .btn-dk{
+        width: 190px;
+    }
+    .btn-dk.active{
+        width: 90px;
+    }
+    .btn-dn.active{
+        width: 190px;
+    }
+    .input-wrap{
+        padding:0 18px;
+    }
+    .input-wrap img{
+        top: 6px;
+        width: 14px;
+    }
+    .input-wrap input{
+        padding: 8px 4px;
+        padding-left: 40px;
+    }
+    .logo-mobile{
+        margin: 20px auto 0;
+
+        display: block;
+    }
+    .logo-mobile img{
+        width: 160px;
+    }
+    .download{
+        display: none;
+    }
+    .nhanngay {
+        position: absolute;
+        bottom: -16%;
+        left: 50%;
+        transform: translateX(-45%);
+        width: 239px;
+    }
+    .text-warning{
+        display: block;
+        width: 250px;
+        margin: 40px auto 0;
+    }
+    .chart img{
+        height: 200px;
+    }
+    .giaitri{
+        display: none;
+    }
+    .download-mobile img{
+        display: block;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .text-warning:nth-child(2){
+        margin-top: 0;
+    }
+    .games-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        width: 120px;
+        margin: 70px 0 0 auto;
+        margin-left: auto !important;
+        gap: 10px;
+        position: relative;
+    }
+    
+    .games-wrap img{
+        width: 50px;
+    }
+    .games-wrap .heading{
+        display: block;
+        position: absolute;
+        top: -14px;
+        transform: translateX(6px);
+    }
+    .games-wrap .heading img{
+        width: 100px;
+    }
+    .wrapper{
+        padding-bottom: 40px;
+    }
+    .mobile-header{
+        background-image: url(./img/header.png);
+        position: relative;
+        height: 50px;
+        background-position: 20px ;
+    }
+    .mobile-header .icon{
+        width: 40px;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+}
