@@ -16,6 +16,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.mobile-header{
+    display: none;
+}
 .download{
     position: absolute;
     right: 30px;
