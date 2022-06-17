@@ -10,7 +10,7 @@ body{
 }
 .wrapper{
     position: relative;
-    height: 810px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -37,11 +37,11 @@ body{
     left: 40px;
 }
 .text-heading{
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
 }
 .text-heading img{
-    width: 500px;
+    width: 300px;
 
 }
 .chart img{
@@ -131,7 +131,7 @@ body{
 
 .giaitri{
     text-align: center;
-    margin: 40px auto;
+    margin: 30px auto;
     width: 250px;
 }
 .games-wrap{
@@ -139,14 +139,17 @@ body{
     height: 100px;
     margin: 0 auto;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    align-items: center;
 }
 
 .games-wrap img{
     transform: translateY(-20px);
-    width: 100px;
+    width: 70px;
+    transform: translateY(-10px);
 }
 .logo-mobile{
     display: none;
@@ -169,7 +172,6 @@ body{
         background-image: url(./img/BG_mobile.jpg);
         padding-bottom: 200px !important;
         overflow: hidden;
-        height: unset;
 
     }
     .text-heading img{
@@ -295,7 +297,7 @@ body{
 
 @media screen and (min-width: 1500px) {
     .wrapper{
-        height: 1070px;
+        height: 100vh;
     }
     .form{
         width: 623px;
@@ -350,6 +352,12 @@ body{
         left: 19px;
     }
     .chart img{
-        height: 555px;
+        height: 595px;
+    }
+    .games-wrap img{
+        width: 100px;
+    }
+    .text-heading img {
+        width: 500px;
     }
 }
