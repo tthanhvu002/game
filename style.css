@@ -58,12 +58,12 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    height: 300px;
+    height: 288px;
 }
 .btn-wrap{
     display: flex;
     align-items: center;
-    transform: translate(-14px, 25px);
+    transform: translate(-25px, 25px);
     justify-content: center;
     gap: 10px;
 }
@@ -103,12 +103,12 @@ body{
     border-radius: 20px;
     border: 1px solid rgb(246, 246, 78);
     outline: none;
-    width: 80%;
+    width: 75%;
     padding: 14px 8px;
     padding-left: 40px;
 }
 .input-wrap {
-    padding: 0 25px;
+    padding: 0 20px;
     text-align: left;
     margin-top: 15px;
 }
@@ -295,26 +295,26 @@ body{
         height: 1070px;
     }
     .form{
-        width: 828px;
-        height: 520px;
+        width: 760px;
+        height: 470px;
         background-size: cover;
     }
     .btn-dk{
-        width: 480px;
+        width: 440px;
         height: 100px;
     }
     .btn-dn{
-        width: 250px;
+        width: 220px;
         height: 100px;
 
     }
     .btn-dn.active{
-        width: 480px;
+        width: 440px;
         height: 100px;
 
     }
     .btn-dk.active{
-        width: 250px;
+        width: 220px;
         height: 100px;
     }
     .input-wrap {
