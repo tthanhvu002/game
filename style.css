@@ -24,7 +24,8 @@ body{
 .download{
     position: absolute;
     right: 30px;
-    top: 10%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .download img{
     width: 200px;
@@ -341,5 +342,11 @@ body{
     .giaitri{
         margin: 80px auto;
         width: 400px;
+    }
+    .chart{
+        left: 19px;
+    }
+    .chart img{
+        height: 555px;
     }
 }
