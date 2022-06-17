@@ -3,10 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(./img/bg_PC.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+    
 }
 .hide{
     display: none;
@@ -17,6 +14,9 @@ body{
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    background-image: url(./img/bg_PC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .mobile-header{
     display: none;
@@ -274,6 +274,7 @@ body{
         position: relative;
         height: 50px;
         background-position: 20px ;
+        display: block;
     }
     .mobile-header .icon{
         width: 40px;
