@@ -374,7 +374,6 @@ body{
     }
     .games-wrap{
         gap: 12px;
-        bottom: 40px;
         transform: translateX(calc(-50% + 30px));
     }
     .text-heading{
