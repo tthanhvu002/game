@@ -51,7 +51,7 @@ body{
 .form{
     background-image: url(./img/khung.png);
     text-align: center;
-    margin: 10px auto;
+    margin: 30px auto 10px;
     height: 300px;
     transform: translateX(15px);
     width: 500px;
@@ -136,10 +136,9 @@ body{
 }
 .games-wrap{
     background-image: url(./img/nen\ game.png);
-    height: 100px;
     margin: 0 auto;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -178,43 +177,52 @@ body{
         width: 270px;
     }
     .form{
-        width: 320px;
+        width: 325px;
         transform: translateX(0);
-        height: 200px;
+        height: 250px;
     }
     .btn-wrap{
-        transform: translate(0px, 12px);
+        transform: translate(0px, 7px);
         gap: 5px;
     }
     .input-wrap:nth-child(2){
-        margin-top: 15px !important;
+        margin-top: 10px !important;
     }
     .input-wrap{
         margin-top: 5px;
     }
     .btn-dn{
-        width: 90px;
+        width: 100px;
     }
     .btn-dk{
-        width: 190px;
+        width: 180px;
     }
     .btn-dk.active{
-        width: 90px;
+        width: 100px;
     }
     .btn-dn.active{
-        width: 190px;
+        width: 180px;
     }
     .input-wrap{
         padding:0 18px;
+        margin-top: 10px;
+    }
+    .text-warning:nth-child(2){
+        margin-top: 0;
+    }
+    .input-wrap input{
+        width: 80%;
     }
     .input-wrap img{
         top: 6px;
+        left: 30px;
         width: 14px;
     }
     .input-wrap input{
         padding: 8px 4px;
-        padding-left: 40px;
+        padding-left: 30px;
     }
+    
     .logo-mobile{
         margin: 20px auto 0;
 
@@ -228,10 +236,10 @@ body{
     }
     .nhanngay {
         position: absolute;
-        bottom: -16%;
+        bottom: 5%;
         left: 50%;
         transform: translateX(-45%);
-        width: 239px;
+        width: 200px;
     }
     .text-warning{
         display: block;
@@ -249,9 +257,7 @@ body{
         width: 300px;
         margin: 20px auto;
     }
-    .text-warning:nth-child(2){
-        margin-top: 0;
-    }
+    
     .games-wrap{
         display: flex;
         flex-wrap: wrap;
@@ -261,7 +267,6 @@ body{
         gap: 10px;
         right: -32px;
         bottom: 25px;
-        position: absolute;
     }
     
     .games-wrap img{
@@ -300,21 +305,23 @@ body{
         height: 100vh;
     }
     .form{
-        width: 623px;
-        height: 399px;
+        margin-top: 40px;
+        width: 617px;
+        height: 396px;
         background-size: cover;
     }
     .btn-dk{
-        width: 350px;
+        width: 320px;
         height: 100px;
     }
+    
     .btn-dn{
         width: 170px;
         height: 100px;
 
     }
     .btn-dn.active{
-        width: 350px;
+        width: 320px;
         height: 100px;
 
     }
@@ -324,29 +331,29 @@ body{
     }
     .input-wrap {
         margin-top: 10px;
-        margin-left: 23px;
+        margin-left: 7px;
         
     }
     .input-wrap input{
         font-size: 22px;
-        width: 90%;
+        width: 82%;
     }
     .input-wrap img{
         top: 16px;
     }
     .btn-wrap{
-        transform: translate(0, 30px);
+        transform: translate(0, 10px);
     }
     .input-wrap:nth-child(2){
-        margin-top: 50px !important;
+        margin-top: 10px !important;
     }
     .nhanngay{
         width: 415px;
         transform: translateX(-44%);
     }
     .giaitri{
-        margin: 80px auto;
-        width: 400px;
+        margin: 60px auto;
+        width: 300px;
     }
     .chart{
         left: 19px;
@@ -355,9 +362,20 @@ body{
         height: 595px;
     }
     .games-wrap img{
-        width: 100px;
+        width: 110px;
+    }
+    .games-wrap{
+        gap: 12px;
+        bottom: 40px;
+        transform: translateX(calc(-50% + 30px));
+    }
+    .text-heading{
+        padding-top: 70px;
     }
     .text-heading img {
-        width: 500px;
+        width: 565px;
+    }
+    .text-heading, .form, .giaitri{
+        transform: translateX(50px);
     }
 }
