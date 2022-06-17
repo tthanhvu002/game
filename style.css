@@ -186,9 +186,10 @@ body{
         gap: 5px;
     }
     .input-wrap:nth-child(2){
-        margin-top: 10px !important;
+        margin-top: 35px !important;
     }
     .input-wrap{
+        transform: translateY(-30px);
         margin-top: 5px;
     }
     .btn-dn{
@@ -236,7 +237,7 @@ body{
     }
     .nhanngay {
         position: absolute;
-        bottom: 5%;
+        bottom: -20px;
         left: 50%;
         transform: translateX(-45%);
         width: 200px;
