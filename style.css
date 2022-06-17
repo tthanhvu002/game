@@ -6,15 +6,17 @@ body{
     background-image: url(./img/bg_PC.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .hide{
     display: none;
 }
 .wrapper{
     position: relative;
-    
+    height: 810px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .mobile-header{
     display: none;
@@ -157,9 +159,12 @@ body{
     body{
         background-image: url(./img/BG_mobile.jpg);
         background-size: cover;
+        overflow: unset;
     }
     .wrapper{
         overflow: hidden;
+        height: unset;
+
     }
     .text-heading img{
         width: 270px;

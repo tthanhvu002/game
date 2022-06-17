@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "52e3482d-772e-40fb-b3f2-dbee36627f40",
+		"name": "REGISTER_LANGDINPAGE_GAME",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4541395"
+	},
+	"item": [
+		{
+			"name": "login-register",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"LoginType\": 1,\r\n  \"UserName\": \"okngonroi\",\r\n  \"Password\": \"okngonroi123\",\r\n  \"DeviceId\": \"2740f64f-70b0-432c-b962-990316b14d4c\",\r\n  \"PrivateKey\": \"89b9677d90ef4063d5b6887c5f9cb3ed27b5c3adeae874e1055151b8bc597dbf\",\r\n  \"Captcha\": \"J7P\",\r\n  \"DeviceType\": 1,\r\n  \"IsLanding\": false,\r\n  \"ReferUrl\": \"https://sieuno686.win/\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{prod}}/api/Account/Register",
+							"host": [
+								"{{prod}}"
+							],
+							"path": [
+								"api",
+								"Account",
+								"Register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register_set_name",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"AccountName\": \"macdinhlaok\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{prod}}/api/Account/UpdateNickName?access_token=05/7JlwSPGwPRvt+AmOe/rol2DkIE/l5KrPGuLIoTduCcSNZx19RZnVXH95L3tA8bS2yiIltYCtI5Q4dGsZ9FvQzEGkicOt8z8v4nk++p1s9uXsfryytou4JEB7lLih3wQUQFniIvXKSqAQfCTPGRvo4R9Jxl59d6TwbCeiuYhZmtlmhq/uuLtavwfuIqC5UXgvmzavGTJ99/xA7v/5jYgglM0SxbwUJdIKGiWkhSg6kV9iZ/Y3FbxOlKOIJ4n1fGX4V1L5inbc0ihSg8kG1qJgx6BqXgF9F0i9R6mJ3iWjl1ZLnm+fseKX7T2JwEGeSoZfHXRMFuU1gR/dWn2Y3KAkbPhqP6xQfng+7wwKmzXETp1l4RHaJkwT645AityYq.6e648b4ee15776b71c28ceea201734b69f909f55975d84ed9fd58fb93083e20c",
+							"host": [
+								"{{prod}}"
+							],
+							"path": [
+								"api",
+								"Account",
+								"UpdateNickName"
+							],
+							"query": [
+								{
+									"key": "access_token",
+									"value": "05/7JlwSPGwPRvt+AmOe/rol2DkIE/l5KrPGuLIoTduCcSNZx19RZnVXH95L3tA8bS2yiIltYCtI5Q4dGsZ9FvQzEGkicOt8z8v4nk++p1s9uXsfryytou4JEB7lLih3wQUQFniIvXKSqAQfCTPGRvo4R9Jxl59d6TwbCeiuYhZmtlmhq/uuLtavwfuIqC5UXgvmzavGTJ99/xA7v/5jYgglM0SxbwUJdIKGiWkhSg6kV9iZ/Y3FbxOlKOIJ4n1fGX4V1L5inbc0ihSg8kG1qJgx6BqXgF9F0i9R6mJ3iWjl1ZLnm+fseKX7T2JwEGeSoZfHXRMFuU1gR/dWn2Y3KAkbPhqP6xQfng+7wwKmzXETp1l4RHaJkwT645AityYq.6e648b4ee15776b71c28ceea201734b69f909f55975d84ed9fd58fb93083e20c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"LoginType\": 1,\r\n  \"UserName\": \"okngonroi\",\r\n  \"Password\": \"okngonroi123\",\r\n  \"DeviceId\": \"2740f64f-70b0-432c-b962-990316b14d4c\",\r\n  \"DeviceType\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{prod}}/api/Account/Login",
+							"host": [
+								"{{prod}}"
+							],
+							"path": [
+								"api",
+								"Account",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
