@@ -162,11 +162,12 @@ body{
 }
 @media screen and (max-width: 767.98px) {
     body{
-        background-image: url(./img/BG_mobile.jpg);
         background-size: cover;
         overflow: unset;
     }
     .wrapper{
+        background-image: url(./img/BG_mobile.jpg);
+        padding-bottom: 200px !important;
         overflow: hidden;
         height: unset;
 
@@ -256,7 +257,9 @@ body{
         margin: 70px 0 0 auto;
         margin-left: auto !important;
         gap: 10px;
-        position: relative;
+        right: -32px;
+        bottom: 25px;
+        position: absolute;
     }
     
     .games-wrap img{
