@@ -295,26 +295,26 @@ body{
         height: 1070px;
     }
     .form{
-        width: 760px;
-        height: 470px;
+        width: 720px;
+        height: 460px;
         background-size: cover;
     }
     .btn-dk{
-        width: 440px;
+        width: 420px;
         height: 100px;
     }
     .btn-dn{
-        width: 220px;
+        width: 210px;
         height: 100px;
 
     }
     .btn-dn.active{
-        width: 440px;
+        width: 420px;
         height: 100px;
 
     }
     .btn-dk.active{
-        width: 220px;
+        width: 210px;
         height: 100px;
     }
     .input-wrap {
