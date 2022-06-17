@@ -170,7 +170,13 @@ body{
 .games-wrap .heading{
     display: none;
 }
+@media screen and (max-width: 420px) {
+    .nhanngay{
+        bottom: 10%;
+    }
+}
 @media screen and (max-width: 767.98px) {
+    
     body{
         background-size: cover;
         overflow: unset;
@@ -307,6 +313,72 @@ body{
         transform: translateY(-50%);
         position: absolute;
     }
+    .logo{
+        margin: 0 auto;
+        transform: translateY(-30px);
+    }
+    .logo img{
+        width: 180px;
+        text-align: center;
+    }
+    .tc .text-heading{
+        margin-top: -30px;
+    }
+    .form-2{
+        background-color: #3b1a51a7;
+        border: 1px solid #1974c7;
+        border-radius: 10px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+        width: 60%;
+        padding: 2px 20px;
+    }
+    .form-2 .input-wrap{
+        color: #fff;
+        margin: 0 !important;
+        transform: unset;
+        margin: 0;
+        transform: translateX(-25px);
+    }
+    .form-2 .input-wrap input{
+        outline: none;
+        border: none;
+        color: #f5e70c;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+    .form-2 .input-wrap input::placeholder{
+        color: #fff;
+    }
+    .group11{
+        margin: 20px auto;
+    }
+    .group11 img{
+        width: 180px;
+
+    }
+    .download-tc{
+        margin: 0 auto;
+        width: 300px;
+    }
+    .tc .text-warning{
+        margin-top: 10px;
+    }
+    .tc .web{
+        margin: 10px auto 0;
+        width: 250px;
+    }
+    .vpn{
+        margin: 10px auto 0;
+        width: 200px;
+    }
+    .vpn-text{
+        margin: 10px auto 0;
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 1500px) {
@@ -387,10 +459,8 @@ body{
     .text-heading, .form, .giaitri{
         transform: translateX(50px);
     }
+    
 }
 
-@media screen and (max-width: 420px) {
-    .nhanngay{
-        bottom: 10%;
-    }
-}
+
+
