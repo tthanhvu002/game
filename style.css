@@ -170,17 +170,109 @@ body{
 .games-wrap .heading{
     display: none;
 }
+.tc .logo{
+    margin: -10px auto;
+}
+.tc .logo img{
+    margin: 10px auto 0;
+    width: 160px;
+}
+.tc .text-heading{
+    margin-top: -10px;
+    padding-top: 0;
+}
+.tc .text-heading img{
+    width: 340px;
+}
+.form-2{
+    background-color: #3b1a51dc;
+    border: 1px solid #1974c7;
+    border-radius: 10px;
+    margin: 0px auto 10px;
+    height: 111px;
+    transform: translateX(15px);
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-bottom: 10px;
+}
+.tc .input-wrap{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 0 !important;
+}
+.tc input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 60%;
+    text-align: right;
+    color: #f5e70c;
+    padding-left: 0px;
+}
+
+.tc .input-wrap img{
+    left: 8px;
+    top: 10px;
+}
+.tc .input-wrap span{
+    color: #fff;
+    margin-left: 12px;
+}
+.group11{
+    margin: -5px auto;
+}
+.group11 img{
+
+    width: 220px;
+}
+.download-tc{
+    width: 300px;
+    margin: 10px auto 0;
+}
+
+.web{
+    width: 300px;
+    margin: 10px auto 0;
+}
+.tc .text-warning{
+    display: block;
+    margin: 10px auto 0;
+    width: 300px;
+}
+.vpn{
+    width: 180px;
+    margin: 0 auto;
+}
+.vpn-text{
+    margin: 0 auto;
+    width: 200px;
+}
 @media screen and (max-width: 420px) {
     .nhanngay{
         bottom: 10%;
+    }
+    .tc .wrapper{
+        height: fit-content;
     }
 }
 @media screen and (max-width: 767.98px) {
     
     body{
         background-size: cover;
-        overflow: unset;
+        overflow: hidden;
+        height: fit-content;
     }
+    .wrapper.tc{
+        height: 100vh;  
+    }
+    
     .wrapper{
         background-image: url(./img/BG_mobile.jpg);
         padding-bottom: 200px !important;
@@ -470,8 +562,65 @@ body{
     .text-heading, .form, .giaitri{
         transform: translateX(50px);
     }
+    .tc .logo{
+        margin: 0 auto;
+        transform: translateX(-20px);
+    }
+    .tc .logo img{
+        width: 220px;
+    }
+    .tc .text-heading img{
+        transform: translateX(-40px);
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .form-2{
+        width: 530px;
+        height: 165px;
+        transform: translateX(0);
+    }
+    .group11{
+        margin: 15px auto;
+    }
+    .group11 img{
+        
+        width: 220px;
+    }
+    .download-tc{
+        width: 300px;
+        margin: 10px auto 0;
+    }
+    
+    .web{
+        width: 300px;
+        margin: 10px auto 0;
+    }
+    .tc .text-warning{
+        display: block;
+        margin: 10px auto 0;
+        width: 300px;
+    }
+    .vpn{
+        width: 300px;
+        margin: 10px auto;
+    }
+    .tc .input-wrap input{
+        width: 60%;
+    }
+    .tc .input-wrap {
+        margin-top: 0 !important;
+    }
+    .vpn{
+        margin-top: 10px auto;
+        width: 200px;
+    }
+    .vpn-text{
+        margin: 10px auto;
+        width: 250px;
+    }
     
 }
+
 
 
 
