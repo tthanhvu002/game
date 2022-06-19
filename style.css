@@ -266,7 +266,6 @@ body{
     
     body{
         background-size: cover;
-        overflow: hidden;
         height: fit-content;
     }
     .wrapper.tc{
