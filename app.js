@@ -20,3 +20,24 @@ dk.onclick = () => {
     document.querySelector('.nhanngay').src = './img/Button nahn 100k.png'
 
 }
+
+function getMobileOperatingSystem() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Windows Phone must come first because its UA also contains "Android"
+    console.log(userAgent);
+    if (/android/i.test(userAgent)) {
+        document.querySelector('.download-mobile img').src = '.img/Button down Google Play_.png'
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        document.querySelector('.download-mobile img').src = './img/Button down ios.png'
+    }
+
+    return "unknown";
+}
+window.onload = () => {
+    getMobileOperatingSystem()
+
+}

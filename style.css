@@ -8,6 +8,9 @@ body{
 .hide{
     display: none;
 }
+.remove{
+    display: none !important;
+}
 .wrapper{
     position: relative;
     height: 100vh;
@@ -254,12 +257,59 @@ body{
     margin: 0 auto;
     width: 200px;
 }
+.wrap-info-me, .info-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrap-main-log{
+    width: 100%;
+}
+.wrap-info-me .row{
+    width: 100%;
+}
+.wrap-info-me{
+    width: 50%;
+    transform: translateX(42%);
+}
+.wrap-info-me .row > div{
+    width: 50%;
+}
+.wrap-info-me p{
+    font-size: 20px;
+    color: #ffc71b !important;
+
+}
+
 @media screen and (max-width: 420px) {
+    body{
+        overflow: unset;
+    }
     .nhanngay{
         bottom: 10%;
     }
     .tc .wrapper{
         height: fit-content;
+    }
+    .wrap-info-me {
+        transform: translateY(-46%);
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+   /*  .wrap-main-log {
+        margin-top: 66px !important;
+    } */
+
+    .wrap-info-me p {
+        color: #ffc71b !important;
+        font-size: 14px !important;
+    }
+    .input-wrap img{
+        top: 11px !important;
+        left: 52px !important;
+        width: 14px;
     }
 }
 @media screen and (max-width: 767.98px) {
@@ -267,11 +317,12 @@ body{
     body{
         background-size: cover;
         height: fit-content;
+        overflow: unset;
     }
     .wrapper.tc{
         height: unset;
     }
-    
+   
     .wrapper{
         background-image: url(./img/BG_mobile.jpg);
         padding-bottom: 200px !important;
@@ -320,8 +371,8 @@ body{
         width: 80%;
     }
     .input-wrap img{
-        top: 6px;
-        left: 38px;
+        top: 11px;
+        left: 82px;
         width: 14px;
     }
     .input-wrap input{
@@ -481,9 +532,21 @@ body{
         margin: 10px auto 0;
         width: 200px;
     }
+    .wrap-info-me {
+        flex-direction: column;
+        padding-top: 0;
+        transform: translate(29%, -35%);
+		width: 63%;
+    }
+    .remove{
+        display: none !important;
+    }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen    and (min-width: 1500px) {
+    .remove{
+        display: none !important;
+    }
     .wrapper{
         height: 100vh;
     }
@@ -619,7 +682,3 @@ body{
     }
     
 }
-
-
-
-
